@@ -1,0 +1,45 @@
+CREATE DATABASE blood_donation
+CREATE TABLE user_biodata(id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,fname VARCHAR(50),
+lname VARCHAR(50),dob VARCHAR(50),blood_group VARCHAR(50),phone VARCHAR(50),postcode INT,
+village VARCHAR(50),district VARCHAR(50),division VARCHAR(50),email VARCHAR(50),
+PASSWORD VARCHAR(100))
+
+CREATE TABLE request_user_biodata(id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,fname VARCHAR(50),
+lname VARCHAR(50),dob VARCHAR(50),blood_group VARCHAR(50),phone VARCHAR(50),postcode INT,
+village VARCHAR(50),district VARCHAR(50),division VARCHAR(50),email VARCHAR(50),
+PASSWORD VARCHAR(100))
+
+CREATE TABLE admin_biodata(id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,NAME VARCHAR(50), PASSWORD VARCHAR(50))
+
+INSERT INTO request_user_biodata(fname,lname,dob,blood_group,phone,postcode,village,district,
+division,email,PASSWORD)VALUES('Rowshan Ara','Sifa','1998-10-20','AB+','01951972159',1601,
+'old babu para','saidpur','RANGPUR','rowshanras@gmail.com','sifa'),
+('Fahad','Hossain','2000-11-04','AB-','01717005739',1602,'new babu para','Raipur','DHAKA',
+'fahadhossain04@gmail.com','fahad0004'),('Ashikul','Hossain','1998-11-30','B+','01797908210',
+1603,'senpura','nobabgonj','RAJSHAHI','sojolislm@gmail.com','asdfg'),
+('Anam','Shakil','1998-08-01','O+','01788016456',1604,'chandnogor','manikgonj','MYMENSINGH',
+'anamshakil01@gmail.com','anam'),('Gulapsha','Akter','1998-07-04','O+','01775513737',
+1605,'parbotipur','coxsbajar','CHITTAGONJ','gulap98@gmail.com','040798'),
+('Rahim','Khan','1993-07-23','O-','01721878952',1606,'alampur','comilla','SYLHET',
+'rahimkhan67@gmail.com','983413'),('Atiq','Aziz','1998-07-26','A+','01736122378',
+1607,'shagonj','sherpur','BARISHAL','atiq.aziz07@gmail.com','aziz1245'),('Asif','Hossain','1997-05-13',
+'A-','01923484743',1608,'sonapukur','rosulgonj','MYMENSINGH','asif45@gmail.com','09redmi'),('Abir','Hasan','1998-11-23',
+'AB+','01721626987',1609,'janpur','kodompur','RAJSHAHI','abirhasan78@gmail.com','4898492'),('Riajul','Islam','1994-09-07',
+'AB-','01938494093',1610,'hazaripur','jessore','BARISHAL','riaj877@gmail.com','jdj929'),('Shah','Ali','1996-11-16',
+'B+','01958483756',1611,'osampara','Nillphamari','RANGPUR','shahali765@gmail.com','shah4r4'),('Jisan','Khan','1994-03-02',
+'B-','01765453123',1612,'pirgonj','eijajpur','DHAKA','jisank54@gmail.com','jisan765'),('Ahemed','Shah','1996-01-09',
+'O+','01983234564',1613,'komolpara','sitakundo','CHITTAGONJ','ahemed342@gmail.com','oikmc343'),('Veer','Singh','1990-02-14',
+'O-','01756483897',1614,'rajbari','tikugonj','SYLHET','veers89@gmail.com','zoe95jg'),('Kamal','Hossain','1989-04-23',
+'A-','01976534234',1615,'falipara','dinajpur','RANGPUR','kamalhossain89@gmail.com','keo832'),('Sahab','Uddin','1985-06-14',
+'A+','01712227609',1616,'sitapur','noaga','RAJSHAHI','sahabuddin.14@gmail.com','saunvj33'),('Sakila','Chowdhury','1992-08-26',
+'O+','01704262969',1617,'rampur','dinajpur','RANGPUR','sakila@gmail.com','sakila'),('Abul','Hasan','1990-06-15',
+'O-','01789545324',1618,'kalipara','gaibandha','RAJSHAHI','abul@gmail.com','abul'),('Wasim','Khan','1985-04-22',
+'B+','01389028485',1619,'fakirpur','faridpur','DHAKA','wasim@gmail.com','wasim'),('Salim','Hossain','1987-12-31',
+'B-','01883728773',1620,'abulpara','borguna','BARISHAL','salim@gmail.com','salim'),('Rohima','Begum','1986-11-22',
+'A+','01764233354',1621,'lalgonj','hobigonj','SYLHET','rohima@gmail.com','rohima'),('Sadia','Korim','1993-09-25',
+'A-','01993847586',1622,'jonokpara','rangamati','CHITTAGONJ','sadia@gmail.com','sadia'),('Robiul','Islam','1991-10-12',
+'AB+','0178222738',1623,'hawaldarpara','jamalpur','MYMENSINGH','robiul@gmail,com','robiul'),('jahangir','Alam','1989-02-24',
+'AB-','0187364223',1624,'jamipara','sunamgonj','SYLHET','jahangir@gmail.com','jahangir')
+
+
+INSERT INTO admin_biodata(NAME,PASSWORD)VALUES('admin','password')

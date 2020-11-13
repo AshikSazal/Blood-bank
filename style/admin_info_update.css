@@ -1,0 +1,44 @@
+#main{
+  width: 100%;
+  height: 5rem;
+  background-image: url(../image/doctor2.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: 0 -6.25rem;  /* left, top*/
+}
+.container{
+  text-align: center;
+
+}
+input{
+  width: 15.625rem;
+  height: 2.5rem;
+  border-radius: 3.125rem;
+}
+.submit{
+  background-color: #b29f94;
+  color: white;
+  border: none;
+}
+span{
+  color: red;
+  text-align: center;
+}
+
+.update input[type=text],.update .submit{
+  font-size: 1.1rem;
+  padding: 0px .9rem;
+  padding-left: 10px;
+  font-family: Arial;
+  border: none;
+  font-weight: 400;
+  text-transform: none;
+}
+.update input[type=text]{
+  background-color: #f39d1a;
+  color: black;
+}
+.update .submit{
+  background-color: #2E8B57;
+  color: white;
+}

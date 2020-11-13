@@ -1,0 +1,75 @@
+#main{
+	width: 100%;
+	height: 5rem;
+	background-image: url(../image/doctor2.jpg);
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position: 0 -6.25rem;  /* left, top*/
+}
+.registration{
+	text-align: center;
+}
+
+/* show table */
+.show-user{
+  text-align: center;
+  padding-bottom: 50px;
+}
+table{
+  text-align: center;
+  width: 100%;
+  font-family: Trebuchet MS;
+  text-align: left;
+  margin-bottom: 50px;
+}
+th{
+  background-color: #6b5b95;
+  color: white;
+  font-size: 20px;
+}
+th td{
+  display: flex;
+}
+table,tr,th,td{
+  border-collapse: collapse;
+  border: 1px solid #3e4444;
+  text-align: center;
+
+}
+td{
+  font-size: 15px;
+  font-family: Arial Narrow;
+  color: black;
+  font-weight: 500;
+}
+
+/* User Search */
+.user-search ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+.user-search ul li input,.user-search ul li button{
+	background-color: #f39d1a;
+	border: none;
+	color: black;
+	border-radius: 20px;
+	height: 40px;
+}
+.user-search ul li input[type=text]{
+	padding-left: 10px;
+	color: black;
+	font-family: arial;
+}
+.user-search ul li button{
+	font-size: 15px;
+	border-radius: 80px;
+}
+.user-search ul li button i{
+	font-size: 18px;
+}
+.user-search2 select{
+	background-color: #f39d1a;
+	border: none;
+	color: black;
+	height: 30px;
+}
