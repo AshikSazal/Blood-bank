@@ -1,18 +1,18 @@
-CREATE DATABASE blood_donation
+CREATE DATABASE blood_donation;
 CREATE TABLE user_biodata(id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,fname VARCHAR(50),
 lname VARCHAR(50),dob VARCHAR(50),blood_group VARCHAR(50),phone VARCHAR(50),postcode INT,
 village VARCHAR(50),district VARCHAR(50),division VARCHAR(50),email VARCHAR(50),
-PASSWORD VARCHAR(100))
+PASSWORD VARCHAR(100));
 
 CREATE TABLE request_user_biodata(id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,fname VARCHAR(50),
 lname VARCHAR(50),dob VARCHAR(50),blood_group VARCHAR(50),phone VARCHAR(50),postcode INT,
 village VARCHAR(50),district VARCHAR(50),division VARCHAR(50),email VARCHAR(50),
-PASSWORD VARCHAR(100))
+`password` VARCHAR(100));
 
-CREATE TABLE admin_biodata(id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,NAME VARCHAR(50), PASSWORD VARCHAR(50))
+CREATE TABLE admin_biodata(id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,`name` VARCHAR(50), `password` VARCHAR(50));
 
 INSERT INTO request_user_biodata(fname,lname,dob,blood_group,phone,postcode,village,district,
-division,email,PASSWORD)VALUES('Rowshan Ara','Sifa','1998-10-20','AB+','01951972159',1601,
+division,email,`password`)VALUES('Rowshan Ara','Sifa','1998-10-20','AB+','01951972159',1601,
 'old babu para','saidpur','RANGPUR','rowshanras@gmail.com','sifa'),
 ('Fahad','Hossain','2000-11-04','AB-','01717005739',1602,'new babu para','Raipur','DHAKA',
 'fahadhossain04@gmail.com','fahad0004'),('Ashikul','Hossain','1998-11-30','B+','01797908210',
@@ -39,7 +39,7 @@ division,email,PASSWORD)VALUES('Rowshan Ara','Sifa','1998-10-20','AB+','01951972
 'A+','01764233354',1621,'lalgonj','hobigonj','SYLHET','rohima@gmail.com','rohima'),('Sadia','Korim','1993-09-25',
 'A-','01993847586',1622,'jonokpara','rangamati','CHITTAGONJ','sadia@gmail.com','sadia'),('Robiul','Islam','1991-10-12',
 'AB+','0178222738',1623,'hawaldarpara','jamalpur','MYMENSINGH','robiul@gmail,com','robiul'),('jahangir','Alam','1989-02-24',
-'AB-','0187364223',1624,'jamipara','sunamgonj','SYLHET','jahangir@gmail.com','jahangir')
+'AB-','0187364223',1624,'jamipara','sunamgonj','SYLHET','jahangir@gmail.com','jahangir');
 
 
-INSERT INTO admin_biodata(NAME,PASSWORD)VALUES('admin','password')
+INSERT INTO admin_biodata(NAME,PASSWORD)VALUES('admin','password');
