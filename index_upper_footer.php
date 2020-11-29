@@ -35,7 +35,7 @@
 			          <a href='search.php' class='search'>Search</a>
 			        </li>
 			        <li><a href='#' class='about-contact-sign'>About us</a></li>
-			        <li><a href='#' class='about-contact-sign'>Contact us</a></li>
+			        <li><a href='contact_us.php' class='about-contact-sign'>Contact us</a></li>
 			        <li>
 			          <div class='menu-bar'>
 			            <div class='dropdown'>
@@ -79,7 +79,7 @@
 			          <a href='search.php' class='search'>Search</a>
 			        </li>
 			        <li><a href='#' class='about-contact-sign'>About us</a></li>
-			        <li><a href='#' class='about-contact-sign'>Contact us</a></li>
+			        <li><a href='contact_us.php' class='about-contact-sign'>Contact us</a></li>
 			        <li><a href='#' id='button' class='about-contact-sign'>Sign in</a></li>
 			      </ul>
 			    </nav>
@@ -113,7 +113,7 @@
 			          <a href='search.php' class='search'>Search</a>
 			        </li>
 			        <li><a href='#' class='about-contact-sign'>About us</a></li>
-			        <li><a href='#' class='about-contact-sign'>Contact us</a></li>
+			        <li><a href='contact_us.php' class='about-contact-sign'>Contact us</a></li>
 			        <li>
 			          <div class='menu-bar'>
 			            <div class='dropdown'>
@@ -153,7 +153,7 @@
 			            <li><a href='#' class='foot'>Location</a></li>
 			            <li><a href='#' class='foot'>Help & Info</a></li>
 			          <br>
-			            <li><a href='#' class='foot'>Contact</a></li><li class='foot'>|</li>
+			            <li><a href='contact_us.php' class='foot'>Contact</a></li><li class='foot'>|</li>
 			            <li><a href='#' class='foot'>Blog</a></li><li class='foot'>|</li>
 			            <li><a href='#' class='foot'>About</a></li>
 			          </ul>
